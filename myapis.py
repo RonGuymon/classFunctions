@@ -15,10 +15,17 @@ Test if it exists: cat ~./zshrc
 Set it permanently: source ~/.zshrc
 Completely close and restart Jupyter if it was open
 
+# Github workflow
+git status
+git pull
+git add file.txt or git add .
+git commit -m "message"
+git push 
 
-Created on Mon Apr  1 16:05:29 2024
+# Finding folder where packages are located
+import sys; sys.path
+help('modules')
 
-@author: rnguymon
 """
 #%% Modules for more than one function
 import os # For getting api key from environment variables
